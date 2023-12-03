@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Cedarville+Cursive&family=Montserrat:wght@200;900&family=Pacifico&family=Poppins:wght@700;900&family=Quicksand:wght@300&family=Raleway:wght@900&family=Tangerine:wght@700&family=Ubuntu:wght@300&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-image: url(./books.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    
+}
+.main{
+    box-shadow: 1px 1px 10px black;
+    height: 500px;
+    width: 28%;
+    margin: 0px auto;
+    position: relative;
+    top: 10%;
+
+}
+.one{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 8%;
+   
+    color: white;
+
+}
+.table{
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+  text-align: center;
+   justify-content: center;
+   height: 290px;
+/* background-color: red; */
+   width: 100%;
+  
+}
+
+
+.cure{
+    display: flex;
+    border: 1px solid transparent;
+   margin-top: 20px;
+    font-family: 'Poppins', sans-serif; 
+   gap: 5px;
+    height: 35px;
+   width: 70%;
+   background-color: white;
+    align-items: center;
+      /* background-color: red; */
+}
+
+#Username{
+    height: 50px;
+    width: 400px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  
+}
+
+.for{
+    color: white;
+    font-weight: 100;
+    
+    font-size: 16px;
+    font-weight: 450;
+    height: 25px;
+   width: 70%;
+   margin-top: 10px;
+   display: flex;
+
+}
+.log{
+  font-family: 'Poppins', sans-serif; 
+border: 1px solid #3598DB;
+height: 35px;
+width: 70%;
+  background-color:#3598DB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+   margin-top: 10px;
+
+}
+.wire{
+    display: flex;
+  align-items: center;
+  font-size: 18px;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  /* margin-bottom: 10px; */
+  position: relative;
+  bottom: 25px;
+}
+.duita{
+    display: flex;
+    border: 1px solid #3598DB;
+    font-family: 'Poppins', sans-serif; 
+    height: 35px;
+    width: 33%;
+      background-color: #3598DB;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* margin-top: 10px; */
+      color: white;
+   
+}
+.hi{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.svgs{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+.tinta{
+    display: flex;
+    border: 1px solid #E0306C;
+    font-family: 'Poppins', sans-serif; 
+    /* margin-top: 15px; */
+    height: 35px;
+    width: 33%;
+   background-color: #E0306C;;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      gap: 5px;
+    
+}
+
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.upp{
+    color: #3598DB;
+}
+.do{
+    color: white;
+}

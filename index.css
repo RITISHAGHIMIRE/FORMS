@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Cedarville+Cursive&family=Montserrat:wght@200;900&family=Pacifico&family=Quicksand:wght@300&family=Raleway:wght@900&family=Tangerine:wght@700&family=Ubuntu:wght@300&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main{
+   
+   height: 470px;
+   margin: 0px auto;
+   width: 55%;
+   box-shadow: 1px 1px 20px gray;
+   border-radius: 15px;
+ display: flex;
+margin-top: 50px;
+
+
+}
+.container{
+    width: 50%;
+    background-color:white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+ 
+    text-align: center;
+   gap: 40px;
+
+  
+}
+.svgs{
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ gap: 10px;
+}
+
+.in{
+    font-size: 36px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+#Username{
+    height: 30px;
+    width: 250px;
+    border: none;
+    background-color: rgb(234, 233, 233);
+    padding-left:15px ;
+}
+
+.duita{
+    display: flex;
+gap: 15px;
+flex-direction: column;
+
+}
+.forgot{
+    font-size: 20px;
+
+}
+.log{
+   box-shadow: 1px 1px 10px white;
+    height: 35px;
+    width: 35%;
+    border-radius: 50px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FF4455;
+    color: white;
+}
+.second{
+    width: 50%;
+    background-color: #FF4455;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.html{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+.for{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.iss{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 80%;
+    text-align: center;
+    /* background-color: azure; */
+
+}
+.ab{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
